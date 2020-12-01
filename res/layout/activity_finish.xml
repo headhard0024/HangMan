@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/txtShow"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:background="#393e46"
+            android:gravity="center"
+            android:textColor="#eeeeee"
+            android:textSize="20dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_weight="1" android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/txtWinnerCounter"
+                android:layout_width="fill_parent"
+                android:layout_height="96dip"
+                android:text="TextView" android:layout_margin="8dip" android:textSize="18dip" android:textColor="#eeeeee" android:gravity="right" android:padding="8dip"/>
+
+
+            <TextView
+                android:id="@+id/txtLossCounter"
+                android:layout_width="fill_parent"
+                android:layout_height="96dip"
+                android:text="TextView" android:layout_margin="8dip" android:textSize="18dip" android:textColor="#eeeeee" android:gravity="right" android:padding="8dip"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dip" >
+
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:text="بی خیال"
+                android:textSize="18dip" />
+
+
+            <Button
+                android:id="@+id/btnNew"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:text="یه دور دیگه"
+                android:textSize="18dip" />
+
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
